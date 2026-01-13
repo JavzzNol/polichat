@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <link rel="icon" type="image/x-icon" href='imagenes/polichatSimplificado.png'>
+    <link rel="stylesheet" href="buscador.css">
+    <script defer src="buscador.js"></script>
+    <title>.: Computación Básica II :.</title>
+</head>
+<body>
+    <ul id="bubble">
+        <li class="animation_bubble"></li>
+        <li class="animation_bubble"></li>
+        <li class="animation_bubble"></li>
+        <li class="animation_bubble"></li>
+        <li class="animation_bubble"></li>
+        <li class="animation_bubble"></li>
+        <li class="animation_bubble"></li>
+        <li class="animation_bubble"></li>
+        <li class="animation_bubble"></li>
+        <li class="animation_bubble"></li>
+        <li class="animation_bubble"></li>
+        <li class="animation_bubble"></li>
+        <li class="animation_bubble"></li>
+        <li class="animation_bubble"></li>
+        <li class="animation_bubble"></li>
+    </ul>
+    <section id="contenedor" class="contenedor">
+        <div class="elementos">
+                <div id="logo_title">
+                    <img src="imagenes/polichat.png" id="logo_img"><span id="title_principal">Polichat</span>                    
+                </div>
+                <span id="subtitle_principal">Buscador de Computación Básica II</span> 
+                <div class="search_container">
+                    <input placeholder="Buscar en Polichat" aria-label="Buscar" type="text" id="search_input">
+                    <button id="voiceSearchBtn" class="button_microfono"><img src="imagenes/microfono.png" width="auto" height="20px"></button>
+                    <button id="search_button" type="button" onclick="setFilter('all')">→</button>
+                </div>
+                <div class="filtros">
+                    <button type="button" onclick="setFilter('all')" id="button_filtro_all">Todos</button>
+                    <button type="button" onclick="setFilter('page')" id="button_filtro_page">Páginas</button>
+                    <button type="button" onclick="setFilter('video')" id="button_filtro_video">Videos</button>
+                    <button type="button" onclick="setFilter('pdf')" id="button_filtro_pdf">PDF</button>
+                </div>
+                <div class="filtros">
+                    
+                </div>
+        </div>
+        <div id="results" class="results">
+            <dialog class="exit_modal"></dialog>
+        </div>
+    </section>
+</body>
+</html>
