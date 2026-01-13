@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+menu-container{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(auto-fit,min(300px,100%));
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: 1.5rem auto;
+    div{
+        position: relative;
+        width: 50%;
+        cursor: pointer;
+        transform: perspective(1px) translateZ(0);
+        transition-duration: 300ms;
+        transition-property: transform;
+        margin: 0 auto;
+        /*outline: 1px solid #000000;*/
+        a{
+            /*outline: 1px solid #000000;*/
+            img{
+                width:100%;
+            }
+        }
+    }
+
+}
+ 
+
+menu-container > div::before, .auxiliar > div::before{
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: " ";
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 80%);
+    transition: 0.1s ease-in-out;
+    transition-property: transform, opacity;
+}
+
+menu-container > div:hover, menu-container > div:focus, menu-container > div:active , 
+.auxiliar > div:hover, .auxiliar > div:focus, .auxiliar > div:active{
+    transform: translateY(-5px);
+}
+
+menu-container > div:hover:before, menu-container > div:focus:before, menu-container > div:active:before, 
+.auxiliar > div:hover::before, .auxiliar > div:focus:before, .auxiliar > div:active:before{
+    opacity: 1;
+    transform: translateY(5px);
+}

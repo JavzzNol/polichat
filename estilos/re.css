@@ -1,0 +1,29 @@
+
+.texto{
+	color: #00A8F9;
+	margin:0 auto;
+	text-align:center;
+	font: bold 35px verdana, serif ;
+	border:#000;
+	text-shadow: -3px 2px 0 #0a0e27, -5px 4px 0 #3147e3;  
+
+}
+.formatoparrafo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000;
+	text-align: justify;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 80px;
+}
+
+img:hover{
+	transform: scale(0.7);
+}
+img{
+	transition:all 0.5s ease;}
+
+
+

@@ -1,0 +1,132 @@
+@charset "utf-8";
+img, object, embed, video {
+	max-width: 100%;
+}
+.ie6 img {
+	width:100%;
+}
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 99.3197%;
+	padding-left: 0.3401%;
+	padding-right: 0.3401%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+@media only screen and (max-width: 2960px) {
+.gridContainer {
+	width: 99.5%;
+	min-width: 2171px;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.pantalla{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:2450px;
+	display: block;
+}
+@media only screen and (max-width: 1920px) {
+.gridContainer {
+	width: 99.5%;
+	min-width: 1775px;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.pantalla{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:2270px;
+	display: block;
+}
+@media only screen and (max-width: 1775px) {
+.gridContainer {
+	width: 99.9%;
+	min-width: 1531px;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.pantalla{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:1630px;
+	display: block;
+}
+
+@media only screen and (max-width: 1280px) {
+.gridContainer {
+	width: 100%;
+	min-width: 850px;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.pantalla{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:1570px;
+	display: block;
+}
+
+}
+@media only screen and (max-width: 719px) {
+.gridContainer {
+	width: 100%;
+	min-width: 700px;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.pantalla{
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:1250px;
+	display: block;
+}
+
+}

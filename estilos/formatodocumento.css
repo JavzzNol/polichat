@@ -1,0 +1,292 @@
+.formatotitulo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #3520ff;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+.formatomenu2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #000;
+	text-align: center;
+}
+
+.formatosubtituloactividad {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	color: #164bf0;
+	text-align: center;
+}
+.formatosubtitulo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #186fd8;
+	text-align: left;
+	margin-left: 20px;
+}
+.formatoparrafo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000;
+	text-align: justify;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 80px;
+}
+.formatoparrafotabla {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.formatoparrafoconsulta {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000;
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 80px;
+}
+.formatoetiquetashtml {
+	font-family: Courier New;
+	font-size: 17px;
+	font-weight: normal;
+	color: #000;
+	}
+.formatotitulofiguras {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000;
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.formatonotas {
+font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	text-align: justify;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 80px;
+}
+.depurarcontenido {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF0;
+	text-decoration: overline;
+}
+.formatocentrarimagen {
+	text-align: center;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+@media screen and (max-width: 144px){
+		.formatocentrarimagen {
+	text-align: center;
+	width:70px;
+	height:auto;
+	margin:0 auto;
+	overflow:hidden;
+		}
+}
+
+.formatomenu {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #FFF;
+}
+
+.formatomenuprincipal {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+.formatoencabezadotabla {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+.formatoprincipal {
+	color: #FFF;
+	text-align:center;
+	font: bold 25px verdana, serif ;
+	text-shadow: -4px -5px 11px #FFFFFF;
+}
+.formatotitulomenuprincipal {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
+.formatomenuizquierdo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #186fd8;
+	text-align: center;
+	
+}
+.formatoiconopdf {
+	text-align: right;
+}
+.formatoimagenmenulateral{
+	width:30%;
+	height:auto;
+	text-align:center;}
+	@media screen and (max-width: 500px){
+.formatoparrafo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #000;
+	text-align: justify;
+	padding:15px;
+}
+		}
+@media screen and (max-width: 200px){
+		.formatomenuizquierdo{
+			font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #186fd8;
+	text-align: center;
+			}
+	.formatoimagenmenulateral{
+	width:55%;
+	height:auto;
+	text-align:center;
+	}
+	.botonizquierdo:hover {
+	
+	box-shadow:0px 0px 0px;
+	padding-left:10px;
+	}
+	
+		}
+@media screen and (max-width: 144px){
+		.formatomenuizquierdo{
+			font-family: Verdana, Geneva, sans-serif;
+	font-size: 8px;
+	font-weight: bold;
+	color: #186fd8;
+	text-align: center;
+			}
+	.formatoimagenmenulateral{
+	width:80%;
+	height:auto;
+	text-align:center;
+	}
+	.botonizquierdo:hover {
+	box-shadow:0px 0px 0px;
+	background-color: #E8E8E8;
+	border-radius:20%;
+	
+	}
+	
+		}
+.boton2:hover{background-color: #36F;
+	border-radius:10%;}
+.boton:hover {
+	box-shadow:0px 0px 0px;
+	padding-top: 7px;
+	}
+.botonizquierdo:hover {
+	
+	box-shadow:0px 0px 0px;
+	padding-left:10px;
+	background-color: #DBEEF7;
+	border-radius:30%;
+	
+	
+	}
+.formatoajusteimagen{
+	width:600px;
+	height: auto;
+}
+@media screen and (max-width: 500px){
+	.formatotitulomenuprincipal {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}}
+.bibliografia {
+	padding-left:2em;
+	text-indent:-2em;
+	}
+.formatoglosarioconcepto {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	text-align: justify;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.formatoglosarioconceptoingles {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000;
+	text-align: justify;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-style: italic;
+}
+.formatopieparrafo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFF;
+	text-align: center;
+}
+
+@media screen and (max-width: 500px){
+	.formatopieparrafo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #FFF;
+	text-align: center;
+}}
+.formatobibliografiatitulo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000;
+	text-align: justify;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-style: italic;
+}
